@@ -1,0 +1,24 @@
+[app/ui]
+version = 9.2.1
+modtime = 1715681346.433373000
+
+[app/launcher]
+version = 9.2.1
+modtime = 1715681346.461755600
+
+[indexes/tmdp_idx]
+owner = admin
+version = 9.2.1
+modtime = 1715681399.382206000
+
+[inputs/script%3A%2F%2F%24SPLUNK_HOME%5Cetc%5Capps%5Ctmdp_app%5Cbin%5Ctmdp_script.py]
+owner = admin
+version = 9.2.1
+modtime = 1715681749.012943400
+
+[views/tmdb_dashboard]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 9.2.1
+modtime = 1715844794.155766500
